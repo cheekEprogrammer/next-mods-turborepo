@@ -5,8 +5,9 @@
     "build": "turbo build",
     "dev": "turbo dev --parallel",
     "lint": "turbo lint",
-    "release": "npx @changesets/cli version",
-    "pub:beta": "cd packages/next-mods && npm run pub:beta",
+    "log": "npx @changesets/cli",
+    "log:pub": "npx @changesets/cli version",
+    "pub:next": "cd packages/next-mods && npm run pub:next",
     "pub:release": "cd packages/next-mods && npm run pub:release",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
