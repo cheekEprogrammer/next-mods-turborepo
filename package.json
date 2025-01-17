@@ -6,8 +6,8 @@
     "dev": "turbo dev --parallel",
     "lint": "turbo lint",
     "release": "npx @changesets/cli version",
-    "pub:beta": "cd packages/next-mods && pnpm pub:beta",
-    "pub:release": "cd packages/next-mods && pnpm pub:release",
+    "pub:beta": "cd packages/next-mods && npm run pub:beta",
+    "pub:release": "cd packages/next-mods && npm run pub:release",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {

@@ -4,6 +4,7 @@
   "compilerOptions": {
     "isolatedModules": false,
     "resolveJsonModule": true,
+    "module": "esnext",
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
