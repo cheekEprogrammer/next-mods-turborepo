@@ -1,0 +1,16 @@
+{
+  "extends": "./base.json",
+  "display": "Docusaurus",
+  "docs": "https://docusaurus.io/docs/typescript-support",
+  "compilerOptions": {
+    "allowJs": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "moduleResolution": "bundler",
+    "module": "esnext",
+    "noEmit": true,
+    "paths": {
+      "@site/*": ["./*"]
+    }
+  }
+}
