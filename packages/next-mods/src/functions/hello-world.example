@@ -1,0 +1,22 @@
+// Hello world function example
+// Rename this file to hello-world.ts to use it as 'npx next-mods add hello-world'
+
+import { FunctionModule } from "../types";
+import { getConfig, NextModsConfig } from "../utils/get-config";
+import { logger } from "../utils/logger";
+
+export const nextModsUI: FunctionModule = {
+  name: "hello-world",
+  description: "Says hello world.",
+  execute: async (options: Record<string, any> = {}) => {
+    // Make sure next-mods is initialized first.
+    const config: NextModsConfig | null = getConfig();
+    if (!config) {
+      logger.error("Please run npx next-mods init first.");
+      return;
+    }
+
+    // Logger is setup to add colors to the terminal.
+    logger.warn("Hello world");
+  },
+};

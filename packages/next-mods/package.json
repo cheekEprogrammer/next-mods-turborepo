@@ -1,7 +1,7 @@
 {
   "name": "next-mods",
   "description": "Add useful features to your next.js application.",
-  "version": "0.1.0",
+  "version": "0.0.2",
   "type": "module",
   "bin": "./dist/index.js",
   "author": {
@@ -23,10 +23,13 @@
   "files": [
     "dist"
   ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "keywords": [
     "components",
     "next.js",
-    "library"
+    "library",
+    "typescript"
   ],
   "exports": {
     ".": {
@@ -35,6 +38,7 @@
     }
   },
   "dependencies": {
+    "@inquirer/prompts": "^7.2.3",
     "commander": "^13.0.0",
     "fs-extra": "^11.3.0",
     "kleur": "^4.1.5",

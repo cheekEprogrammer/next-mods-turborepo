@@ -6,7 +6,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Next Mods",
-  tagline: "Add functional features to your Next.js project.",  
+  tagline: "Add functional features to your Next.js project.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -78,7 +78,7 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Docs",
+          label: "Documentation",
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
@@ -96,7 +96,7 @@ const config: Config = {
           items: [
             {
               label: "Tutorial",
-              to: "/docs/intro",
+              to: "/docs/getting-started",
             },
           ],
         },

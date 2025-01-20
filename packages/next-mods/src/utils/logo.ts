@@ -1,4 +1,5 @@
 import { logger } from "../utils/logger";
+import packageJson from "../../package.json";
 import { highlighter } from "../utils/highlighter";
 
 // Define the ASCII logo
@@ -7,7 +8,6 @@ const logoLines = [
   "|   | |___ _ _| |_   |     |___ _| |___   ",
   "| | | | -_|_'_|  _|  | | | | . | . |_ -|  ",
   "|_|___|___|_,_|_|    |_|_|_|___|___|___|  ",
-  "                                          ",
 ];
 
 // Function to apply colors using highlighter
@@ -34,4 +34,5 @@ const colorizeLogo = (lines: string[]): string => {
 // Log the colored logo
 export const printLogo = () => {
   logger.info(colorizeLogo(logoLines));
+  logger.info(`Next Mods v${packageJson.version}\n`);
 };

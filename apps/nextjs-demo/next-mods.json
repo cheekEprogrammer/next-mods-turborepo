@@ -1,4 +1,8 @@
 {
-  "initialized": true,
-  "mods": []
+  "packageManager": "npm",
+  "isSrcProject": false,
+  "envFilename": ".env.local",
+  "functions": [
+    "supabase"
+  ]
 }
