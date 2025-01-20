@@ -6,7 +6,8 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Next Mods",
-  tagline: "Add functional features to your Next.js project.",
+  tagline:
+    "Add functional features to your Next.js project. Open source and free.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -40,7 +41,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/next-mods/next-mods-turborepo/tree/main/apps/web/",
         },
         blog: {
           showReadingTime: true,
@@ -51,7 +52,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/next-mods/next-mods-turborepo/tree/main/apps/web/",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -86,6 +87,11 @@ const config: Config = {
           label: "GitHub",
           position: "right",
         },
+        {
+          href: "https://www.npmjs.com/package/next-mods",
+          label: "NPM",
+          position: "right",
+        },
       ],
     },
     footer: {
@@ -95,8 +101,16 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "Tutorial",
+              label: "Introduction",
+              to: "/docs/introduction",
+            },
+            {
+              label: "Getting Started",
               to: "/docs/getting-started",
+            },
+            {
+              label: "Functions",
+              to: "/docs/category/functions",
             },
           ],
         },
@@ -105,15 +119,15 @@ const config: Config = {
           items: [
             {
               label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              href: "https://stackoverflow.com/questions/tagged/next-mods",
             },
+            // {
+            //   label: "Discord",
+            //   href: "https://discordapp.com/invite/docusaurus",
+            // },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "X",
-              href: "https://x.com/docusaurus",
+              label: "YouTube",
+              href: "https://www.youtube.com/@next-mods",
             },
           ],
         },
@@ -128,6 +142,7 @@ const config: Config = {
               label: "GitHub",
               href: "https://github.com/next-mods/next-mods-turborepo",
             },
+            { href: "https://www.npmjs.com/package/next-mods", label: "NPM" },
           ],
         },
       ],

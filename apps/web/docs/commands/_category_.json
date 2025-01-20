@@ -1,0 +1,8 @@
+{
+  "label": "Commands",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Read about the available commands in Next Mods"
+  }
+}
