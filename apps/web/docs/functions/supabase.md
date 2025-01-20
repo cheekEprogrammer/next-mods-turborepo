@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # supabase
 
-![Supabase Logo](./images/supabase.png)
+![Learn how to install Supabase into your project in seconds.](./images/supabase.png)
 
 This guide will walk you through integrating Supabase into your Next.js project using the Next Mods CLI tool. [Supabase](https://www.supabase.com) is an open-source Firebase alternative providing authentication, database, and real-time subscription features.
 
