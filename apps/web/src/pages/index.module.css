@@ -13,13 +13,21 @@
 .codeblock {
   color: #000 !important;
   background-color: "#f3f3f3";
-  padding: 0.40rem 0.7rem 0.40rem 0.7rem;
+  padding: 0.4rem 0.7rem 0.4rem 0.7rem;
   font-size: large;
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
   }
 }
 
