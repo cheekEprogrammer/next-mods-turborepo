@@ -3,6 +3,16 @@ facebook:
   permalink: /facebook
   description: Facebook tag description
 
+world:
+  label: World
+  permalink: /world
+  description: World tag description
+
+next-mods:
+  label: Next Mods
+  permalink: /
+  description: Next Mods tag description
+
 hello:
   label: Hello
   permalink: /hello
