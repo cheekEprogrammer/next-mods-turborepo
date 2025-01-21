@@ -1,10 +1,13 @@
-import { getUser } from "@/lib/supabase/supabaseActions";
+import { getUser, readRecords } from "@/lib/supabase/supabaseActions";
 import React from "react";
 import SignoutButton from "@/app/auth/_components/signout-button";
 import DisplayPathname from "@/app/auth/_components/display-pathname";
 
 const Page = async () => {
   const { user } = await getUser();
+  const { data, error } = await readRecords("tasks");
+
+  console.log(data, error);
   return (
     <div className="py-10 px-5 min-h-dvh w-full bg-neutral-50 flex flex-col items-center justify-center">
       <div className="max-w-2xl w-full bg-white rounded-lg shadow-lg p-5 border-2 border-neutral-50">
