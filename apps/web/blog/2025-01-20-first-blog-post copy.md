@@ -19,7 +19,7 @@ As a passionate software developer with a love for all things JavaScript (and Ty
 
 The idea for Next Mods came from my own experiences. I often found myself repetitively setting up certain features and configurations for each new Next.js project. While Next.js offers great flexibility and power, the initial setup and integration of additional tools and optimizations can become tedious and error-prone.
 
-Then came along boilerplates. Ugh. I will write a whole blog post about those, but then came the flood of "next.js boilerplates". What a mess.
+Then came along boilerplates. Ugh. I will write a whole blog post about those, but then came the flood of "[next.js boilerplates](../blog/2025-01-21-revolutionizing-nextjs-development.md#comparing-next-mods-to-traditional-boilerplates)". What a mess.
 
 That's when I realized: what if there was an easy way to add these features with just a few commands? Thus, Next Mods was born—a CLI tool that aims to streamline the setup process by providing ready-to-use solutions for common Next.js enhancements.
 
