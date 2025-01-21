@@ -19,7 +19,7 @@ function HomepageHeader() {
 
         <div className={styles.buttons}>
           <code className={clsx("test", styles.codeblock)}>
-           {">"} npx next-mods init
+            {">"} npx next-mods init
           </code>
           <Link
             className="button button--secondary button--lg"
@@ -37,8 +37,8 @@ export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title={`${siteConfig.title}`}
+      description="Add useful features to your Next.js project in seconds.  "
     >
       <HomepageHeader />
       <main>
