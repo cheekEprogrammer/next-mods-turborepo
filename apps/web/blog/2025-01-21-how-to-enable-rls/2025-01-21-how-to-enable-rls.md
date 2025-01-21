@@ -116,5 +116,3 @@ To ensure that RLS is functioning correctly, run a few tests with different user
 ## Conclusion
 
 Enabling Row Level Security in Supabase is a straightforward yet powerful way to manage user data privacy. With Next Mods streamlining the setup process, developers can implement secure and efficient applications quickly. With RLS, you can ensure that every user's experience is tailored to their own data, building trust and security into your applications.
-
-By integrating this functionality, you’re not just securing your application—you’re also enhancing the user experience. Give RLS a try in your next project, and enjoy the peace of mind that comes with knowing your user data remains protected.
