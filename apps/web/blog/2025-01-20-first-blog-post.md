@@ -13,7 +13,7 @@ Hello everyone! I'm David, and I'm thrilled to welcome you to the first blog pos
 
 ## Who Am I?
 
-As a passionate software developer with a love for all things JavaScript (and TypeScript!), I've spent countless hours working on various Next.js projects. Throughout this journey, I've encountered both the incredible potential of Next.js and the common challenges developers face when setting up and configuring new projects.
+As a passionate software developer with a love for all things JavaScript (and TypeScript!), I've spent countless hours working on various Next.js projects. Throughout this journey, I've encountered both the incredible power of Next.js and the common challenges developers face when setting up and configuring new projects.
 
 ## The Birth of Next Mods
 

@@ -32,7 +32,7 @@ This part is mandatory and automatic. This installs the neccessary Supabase JS p
 
 ### 2. Setup Environment Variables
 
-You will be asked to enter your Supabase project URL and the project ANON_KEY. You can access these keys under the API tab of the Project Settings page of your Supabase project in your [dashboard](https://supabase.com/dashboard/projects) and then just paste them into the tool.
+You will be asked to enter your Supabase project URL and the project ANON keys. You can access these keys [here](https://supabase.com/dashboard/project/_/settings/api) and then just copy and paste them into the tool.
 
 ![Supabase URL and Anon Key Image](./images/supabasekeys.png)
 
