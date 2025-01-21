@@ -58,11 +58,11 @@ A protected route blocks access to anyone who is not signed in. Anyone who visit
 
 ## What Now?
 
-The next thing you should do is tweak the created pages to match your theme and then continue building or install another function! You now have a full suite of tools to handle a database, authentication, storage and more!
+You can now start using Supabase in your application. The next step you should do is enable [Row-Level Security](../../blog/how-to-enable-rls) (RLS) to secure your user's data then continue building your application with the new features added!
 
 ## Issues?
 
-If you make any mistakes to the code and want to reset everything, run the following command:
+If you make any mistakes to any code this tool creates and want to reset anything, run the following command:
 
 ```bash
 npx next-mods install supabase repair
@@ -70,6 +70,6 @@ npx next-mods install supabase repair
 
 :::warning
 
-Running a repair will overwrite the main files so make any backups if needed.
+Running a repair can overwrite the main files so make any backups before repairing.
 
 :::

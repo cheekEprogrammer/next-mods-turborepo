@@ -1,7 +1,7 @@
 {
   "name": "next-mods",
   "description": "Add useful features to your next.js application.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "bin": "./dist/index.js",
   "author": {
