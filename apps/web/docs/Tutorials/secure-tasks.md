@@ -162,4 +162,4 @@ You will be redirected to a signin page since you are not signed in yet. You can
 
 This secure tasks app is just an example of what you can do quickly with Next.js, Supabase and Next Mods. We will be adding more tutorials over time so keep an eye out for changes.
 
-We hope you enjoyed this tutorial and found it useful. Check out the rest of our [tutorials](../category/Tutorials/) for more reading. Thanks for reading!
+We hope you enjoyed this tutorial and found it useful. Check out the rest of our [tutorials](../docs/category/Tutorials/) for more reading. Thanks for reading!
