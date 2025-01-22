@@ -1,5 +1,23 @@
 import React from "react";
 import { promises as fs } from "fs";
+import { supabaseServer } from "@/lib/supabase/supabaseServer";
+import Link from "next/link";
+
+export async function AuthButton() {
+  const supabase = await supabaseServer();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  return (
+    <Link
+      className="btn btn-primary"
+      href={user ? "/auth/signout" : "/auth/signin"}
+    >
+      {user ? "Sign Out" : "Sign in"}
+    </Link>
+  );
+}
 
 const Page = async () => {
   let data;

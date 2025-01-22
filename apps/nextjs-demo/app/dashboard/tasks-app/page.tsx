@@ -16,8 +16,8 @@ const Page = async () => {
         <div className="overflow-y-auto flex-1 h-[calc(70vh-3.5rem)]">
           {tasks && tasks?.length > 0 ? (
             <ul>
-              {tasks.map(({ task, id }) => (
-                <Task key={id} task={task} id={id} />
+              {tasks.map(({ task, id, completed }) => (
+                <Task key={id} task={task} id={id} completed={completed} />
               ))}
             </ul>
           ) : (
