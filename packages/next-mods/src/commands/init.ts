@@ -142,6 +142,15 @@ export const init = new Command()
         return;
       }
 
+      // logger.info("> Installing dependencies...");
+      // if (packageManager === "yarn") {
+      //   execSync("yarn add @next-mods/core", { stdio: "ignore" });
+      // } else if (packageManager === "pnpm") {
+      //   execSync("pnpm add @next-mods/core", { stdio: "ignore" });
+      // } else {
+      //   execSync("npm install @next-mods/core", { stdio: "ignore" });
+      // }
+
       // Ask user for .env filename
       const envFilename = await input({
         message: "Enter the filename for your environment variables file:",
